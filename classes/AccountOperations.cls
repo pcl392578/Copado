@@ -3,4 +3,8 @@ public class AccountOperations {
         a.Description = 'Default Description';
         return a;
     }
+    public static Account setDefaultPhone( Account a){
+       a.Phone='89545645'; 
+        return a;
+    }
 }
